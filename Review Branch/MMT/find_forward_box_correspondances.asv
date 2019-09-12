@@ -1,0 +1,21 @@
+function [ B_from_A ] = find_forward_box_correspondances(b_par, A, B)
+%FIND_BOX_CORRESPONDANCES Summary of this function goes here
+%   Detailed explanation goes here
+
+    B_from_A = nan(size(A));
+    RR = -b_par.big_delta_x:
+
+    for t = b_par.t_start:b_par.t_end
+        A_slice = A(:, t);
+        A_slice = [A_slice, A_slice, A_slice];
+        
+        B_slice = B(:, t - b_par.big_delta_t_min);
+        
+        for x = 1:b_par.n_x
+            B_from_A(x, t) = max(A_slice(b_par.n_x + x + b_par.))
+        end
+    end
+
+
+end
+
