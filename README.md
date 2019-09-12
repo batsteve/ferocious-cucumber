@@ -13,4 +13,4 @@ Instructions:
 
 Run main_sample.m in the latest version of Matlab to produce QRS surface plots for the toy models.
 
-Run /Review Branch/main_optimization.m for the MMT analysis code, and /Review Branch/main_kolm_opt.m for the Kolmogorov analysis code.  These scripts will require large sample data sets:  contact sguth@mit.edu for instructions.
+Run /Review Branch/main_optimization.m for the MMT analysis code, and /Review Branch/main_kolm_opt.m for the Kolmogorov analysis code.  These scripts will require large sample data sets, simulate the datasets by running main.m in each corresponding subfolder.
